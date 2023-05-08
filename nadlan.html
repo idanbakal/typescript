@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{text-align: center;
+        color: gold;}
+        section{display: grid;
+            place-items: center;
+            grid-template-columns: repeat(3 , 1fr);
+            gap: 3px;
+             }
+             .home{
+                border:1px black solid;
+                background-color: aquamarine;
+                overflow-y: auto;
+                padding: 5px;
+                display: grid;
+                place-items: center;
+    
+
+             }
+             </style>
+             
+</head>
+<body>
+    
+    <h1> nadlan site</h1>
+    <section>
+    <div class="home" id="home">
+        <span class="header">rent</span><br><br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente numquam sed quo eius facilis?</p>
+    </div>
+    <div class="home" >
+        <span class="header">sold</span><br><br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente numquam sed quo eius facilis?</p>
+    </div>
+    <div class="home">
+        <span class="header">sale</span><br><br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente numquam sed quo eius facilis?</p>
+    </div>
+    </section>
+    <script src="./js/index.js"></script>
+</body>
+</html>
